@@ -7,7 +7,7 @@ interface DataTodo {
     id: number;
     todo: string;
     userId: number;
-  }[]; //aqui le decimos que es un array de objetos
+  }[]; //aqui le decimos que es un array de objeto
   total : number;
   skip : number;
   limit : number;
