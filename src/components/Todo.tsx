@@ -11,7 +11,8 @@ interface TodoProps {
 export const Todo: React.FC<TodoProps> = ({ todo, status }: TodoProps) => {
 
     const statusColor = status === 'active' ? '#4caf50' : '#f44336';
-
+    // evt: React.MouseEvent proporciona un tipado seguro y acceso a propiedades
+    // específicas del evento del ratón en aplicaciones React con TypeScript.
     const handleClick = (evt:React.MouseEvent) => {
         console.log('click', evt);
     };
